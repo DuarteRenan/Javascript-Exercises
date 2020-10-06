@@ -1,0 +1,47 @@
+body{
+    background-color: darkslateblue;
+    font: normal 15pt Arial;
+    display: grid;
+    /*grid-template-rows: auto 1fr auto;*/
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    text-align: center;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    width:500px;
+    margin:auto;
+    height: auto;
+} 
+
+div.calc{
+    display:inline-block;
+    text-decoration: none;
+    
+}
+input.cbutton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}

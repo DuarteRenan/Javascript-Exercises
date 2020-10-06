@@ -1,0 +1,37 @@
+body{
+    background-color: darkslateblue;
+    font: normal 15pt Arial;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.4);
+    border-radius: 15px;
+    padding: 20px;
+    weight:500px;
+    height: 350px;
+    
+
+}
+div.headline{
+background-color: salmon;
+
+}
+
+div.content{
+background-color: rosybrown;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}

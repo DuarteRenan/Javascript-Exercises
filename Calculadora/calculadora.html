@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Meia Boca</h1>
+    </header>
+    <section>
+        <div>
+            <for id="calc">
+                <input type="text" class="result" id="result"><br>
+                <div>
+
+                    <input type="button" class="cbutton" value="2" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="3" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="1" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="+" onclick="pega(value)"><br>
+                    <input type="button" class="cbutton" value="4" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="5" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="6" onclick="pega(value)">
+
+                    <input type="button" class="cbutton" value="-" onclick="pega(value)"><br>
+                    <input type="button" class="cbutton" value="7" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="8" onclick="pega(value)">
+                    <input type="button" class="cbutton" value="9" onclick="pega(value)">
+
+                    <input type="button" class="cbutton" value="*" onclick="pega(value)"><br>
+
+                    <input type="button" class="cbutton" value="0" onclick="pega(value)">
+
+                    <input type="button" class="cbutton" value="c" onclick="reset()">
+                    <input type="button" class="cbutton" value="=" onclick="valor()">
+                    <input type="button" class="btn btn-outline-success" value="/" onclick="pega(value)">
+                </div>
+            </for>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; DevDuarte</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

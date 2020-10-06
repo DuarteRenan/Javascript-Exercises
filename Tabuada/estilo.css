@@ -1,0 +1,38 @@
+body{
+    background-color: darkslateblue;
+    font: normal 15pt Arial;
+    display: grid;
+    /*grid-template-rows: auto 1fr auto;*/
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    text-align: center;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    width:auto;
+    margin:auto;
+} 
+
+div.box{
+ height: 200px;
+ width: 250px;
+ overflow: auto;
+ text-align: left;
+}
+select{
+    size:10;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}
