@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background:rgb(218, 206, 170);
+}
+
+.parent{
+    display:grid;
+    grid-template-columns:minmax(150px,25%) 1fr;
+    margin:2%;
+    box-shadow: 15px, 15px, 15px,black;
+    box-shadow: 1px 1px 10px rgba(0,0,1,0.3);
+   
+}
+
+p{
+    color: #F2F2F2;
+    transition: all .3s linear;
+}
+
+p#rep{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    margin:0;
+    font-size:2rem;
+   
+  
+}
+p#rep:hover, div#contagem:hover{
+    color:#ff1414 ;
+    transition: all .3s linear;
+}
+
+
+
+p#java{
+   
+    font-size: 90%;
+    text-shadow: 3px 3px 3px rgba(0,0,1,0.3);
+}
+
+p#press{
+    text-align: center;
+    margin-top: -1rem;
+}
+
+p#social{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+a{
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+a:hover{
+    color:#ff1414;
+	text-decoration: underline;
+}
+.yellow{
+    
+    background-color:#BF0B2C;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: justify;
+    color:#f2f2f2;
+    
+}
+
+.purple{
+    background-color:#262626;
+    padding: 1rem;
+}
+
+.yellow,.purple:focus {
+    outline:0rem auto; /*remove as bordas depois de clicado*/
+    outline-offset: 0px; /*offset é o espaço entre a borda e o item*/
+}
+
+input.contar {
+    background-color: #BF2642;
+    width:100%;
+    height: 3rem;
+    border-style: none;
+    outline:0px auto; 
+    outline-offset: 0rem;
+    color:#F2F2F2;
+    opacity: 0.85;
+    transition: all .5s linear;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.55rem;
+    position: top;
+    font-size: 1.75rem;
+    text-align: center;
+    
+}
+
+input.contar:hover {
+    background-color: red;
+}
+
+
+div#contagem{
+    font-family: 'Open Sans Condensed';
+    color:white;
+    font-size: 5rem;
+    transition: all .3s linear;
+    
+}
+
+footer{
+    display: grid;
+    font-size:1rem;
+    text-align: center;
+    background-color:#262626;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
